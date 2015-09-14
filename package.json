@@ -1,21 +1,25 @@
 {
-  "vendor": "CoNWeT",
-  "name": "web-browser-widget",
-  "version": "1.5.2",
-  "description": "A simple widget for displaying external web pages",
+  "vendor": "UPM-ETSIINF",
+  "name": "embedded-sla-manager",
+  "version": "0.1.0",
+  "description": "FIDASH widget that displays the SLA manager service web page",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wirecloud/web-browser-widget.git"
+    "url": "https://github.com/fidash/widget-embedded-SLAManager"
   },
   "keywords": [
-    "wirecloud"
+    "wirecloud",
+    "embedded",
+    "sla",
+    "manager",
+    "fidash"
   ],
   "author": "CoNWeT Lab., Universidad Politecnica de Madrid",
   "license": "https://github.com/Wirecloud/web-browser-widget/blob/master/LICENSE",
   "bugs": {
-    "url": "https://github.com/Wirecloud/web-browser-widget/issues"
+    "url": "https://github.com/fidash/widget-embedded-SLAManager/issues"
   },
-  "homepage": "https://github.com/Wirecloud/web-browser-widget",
+  "homepage": "https://github.com/fidash/widget-embedded-SLAManager",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.6.0",

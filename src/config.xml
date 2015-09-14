@@ -1,14 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="CoNWeT" name="web-browser" version="1.5.2">
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="UPM-ETSIINF" name="embeded-sla-manager" version="0.1.0">
   <details>
-    <title>Web Browser</title>
-    <email>wirecloud@conwet.com</email>
+    <title>Embedded SLA Manager</title>
+    <email>bgrana@conwet.com</email>
     <image>images/catalogue.png</image>
     <smartphoneimage>images/catalogue.png</smartphoneimage>
-    <description>Display external web pages in your dashboards</description>
-    <homepage>https://github.com/Wirecloud/browser-widget</homepage>
-    <issuetracker>https://github.com/Wirecloud/browser-widget/issues</issuetracker>
-    <doc>docs/index.html</doc>
+    <description>FIDASH widget that displays the SLA manager service web page</description>
+    <homepage>https://github.com/fidash/widget-embedded-SLAManager</homepage>
+    <issuetracker>https://github.com/fidash/widget-embedded-SLAManager/issues</issuetracker>
     <authors>Santiago Blanco &lt;sblanco@conwet.com&gt;</authors>
   </details>
   <preferences>
