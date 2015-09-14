@@ -161,6 +161,12 @@ module.exports = function (grunt) {
                     }
                 }
             }
+        },
+
+        wirecloud: {
+          publish: {
+            file: 'build/<%= pkg.vendor %>_<%= pkg.name %>_<%= pkg.version %>-dev.wgt'
+          }
         }
 
     });
@@ -173,6 +179,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-jscs");
     grunt.loadNpmTasks('grunt-strip-code');
     grunt.loadNpmTasks('grunt-text-replace');
+    grunt.loadNpmTasks('grunt-wirecloud');
 
     grunt.registerTask('test', [
         'jshint:grunt',
