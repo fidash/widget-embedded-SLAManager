@@ -3,7 +3,7 @@
 
     config.set({
       frameworks: ['jasmine', 'fixture'],
-    
+
       singleRun: true,
 
       browsers: ['Firefox', 'Chrome'],
@@ -25,15 +25,15 @@
         'src/js/main.js'
       ],
 
-      plugins: [
-        'karma-jasmine',
-        'karma-firefox-launcher',
-        'karma-chrome-launcher',
-        'karma-phantomjs-launcher',
-        'karma-fixture',
-        'karma-junit-reporter',
-        'karma-coverage'
-      ],
+      // plugins: [
+      //   'karma-jasmine',
+      //   'karma-firefox-launcher',
+      //   'karma-chrome-launcher',
+      //   'karma-phantomjs-launcher',
+      //   'karma-fixture',
+      //   'karma-junit-reporter',
+      //   'karma-coverage'
+      // ],
 
       reporters: ['progress', 'junit', 'coverage'],
 
@@ -42,7 +42,7 @@
       },
 
       coverageReporter: {
-        reporters: [ 
+        reporters: [
           {
             type : 'html',
             dir : 'build/coverage/',
