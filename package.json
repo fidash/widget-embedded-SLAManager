@@ -1,6 +1,6 @@
 {
   "vendor": "UPM-ETSIINF",
-  "name": "embedded-sla-manager",
+  "name": "embedded-SLAManager",
   "version": "0.9.0",
   "description": "FIDASH widget that displays the SLA manager service web page",
   "repository": {
