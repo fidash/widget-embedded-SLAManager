@@ -1,49 +1,49 @@
 {
-  "vendor": "UPM-ETSIINF",
-  "name": "embedded-SLAManager",
-  "version": "0.9.0",
-  "description": "FIDASH widget that displays the SLA manager service web page",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fidash/widget-embedded-SLAManager"
-  },
-  "keywords": [
-    "wirecloud",
-    "embedded",
-    "sla",
-    "manager",
-    "fidash"
-  ],
-  "author": "CoNWeT Lab., Universidad Politecnica de Madrid",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/fidash/widget-embedded-SLAManager/issues"
-  },
-  "homepage": "https://github.com/fidash/widget-embedded-SLAManager",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-compress": "^0.12.0",
-    "grunt-contrib-copy": "^0.8.0",
-    "grunt-contrib-jasmine": "^1.0.0",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-jscs": "^1.2.0",
-    "grunt-karma": "^0.12.1",
-    "grunt-strip-code": "^0.1.2",
-    "grunt-template-jasmine-istanbul": "^0.3.4",
-    "grunt-text-replace": "^0.3.12",
-    "grunt-wirecloud": "^0.7.1",
-    "jasmine": "^2.3.2",
-    "jasmine-core": "^2.3.4",
-    "jasmine-jquery": "~2.0.6",
-    "jasmine-utils": "^0.2.2",
-    "karma": "^0.13.10",
-    "karma-chrome-launcher": "^0.2.0",
-    "karma-coverage": "^0.5.2",
-    "karma-firefox-launcher": "^0.1.6",
-    "karma-fixture": "^0.2.5",
-    "karma-jasmine": "^0.3.6",
-    "karma-junit-reporter": "^0.3.6",
-    "karma-phantomjs-launcher": "^1.0.0"
-  }
+    "license": "AGPL-3.0", 
+    "vendor": "UPM-ETSIINF", 
+    "name": "embedded-SLAManager", 
+    "repository": {
+        "url": "https://github.com/fidash/widget-embedded-SLAManager", 
+        "type": "git"
+    }, 
+    "author": "CoNWeT Lab., Universidad Politecnica de Madrid", 
+    "bugs": {
+        "url": "https://github.com/fidash/widget-embedded-SLAManager/issues"
+    }, 
+    "version": "0.9.0", 
+    "keywords": [
+        "wirecloud", 
+        "embedded", 
+        "sla", 
+        "manager", 
+        "fidash"
+    ], 
+    "devDependencies": {
+        "jasmine-jquery": "~2.0.6", 
+        "grunt-contrib-copy": "^0.8.0", 
+        "grunt-jscs": "^1.2.0", 
+        "grunt-karma": "^0.12.1", 
+        "grunt-strip-code": "^0.1.2", 
+        "grunt-contrib-jshint": "^0.10.0", 
+        "jasmine-utils": "^0.2.2", 
+        "grunt-contrib-compress": "^0.12.0", 
+        "jasmine-core": "^2.3.4", 
+        "karma-junit-reporter": "^0.3.6", 
+        "karma-coverage": "^0.5.2", 
+        "jasmine": "^2.3.2", 
+        "karma-jasmine": "^0.3.6", 
+        "grunt-text-replace": "^0.3.12", 
+        "grunt-contrib-clean": "^0.6.0", 
+        "grunt": "^0.4.5", 
+        "grunt-wirecloud": "^0.7.1", 
+        "karma-phantomjs-launcher": "^1.0.0", 
+        "grunt-template-jasmine-istanbul": "^0.3.4", 
+        "karma-fixture": "^0.2.5", 
+        "karma-chrome-launcher": "^0.2.0", 
+        "karma": "^0.13.10", 
+        "grunt-contrib-jasmine": "^1.0.0", 
+        "karma-firefox-launcher": "^0.1.6"
+    }, 
+    "homepage": "https://github.com/fidash/widget-embedded-SLAManager", 
+    "description": "FIDASH widget that displays the SLA manager service web page"
 }
